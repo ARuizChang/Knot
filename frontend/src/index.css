@@ -1,0 +1,251 @@
+@import "tailwindcss";
+
+/* Default Light Theme */
+:root {
+  --color-bg: #ffffff;
+  --color-text: #1f2937;
+  --color-accent: #2563eb;
+  --color-secondary: #f3f4f6;
+  --color-card: #f9fafb;
+  --color-border: #d1d5db;
+}
+
+/* Dark Theme */
+[data-theme="dark"] {
+  --color-bg: #111827;
+  --color-text: #f9fafb;
+  --color-accent: #3b82f6;
+  --color-secondary: #1f2937;
+  --color-card: #1f2937;
+  --color-border: #374151;
+}
+
+/* Blue Theme */
+[data-theme="blue"] {
+  --color-bg: #1e3a8a;
+  --color-text: #e0e7ff;
+  --color-accent: #60a5fa;
+  --color-secondary: #312e81;
+  --color-card: #312e81;
+  --color-border: #4338ca;
+}
+
+/* Emerald Theme */
+[data-theme="emerald"] {
+  --color-bg: #064e3b;
+  --color-text: #d1fae5;
+  --color-accent: #10b981;
+  --color-secondary: #065f46;
+  --color-card: #065f46;
+  --color-border: #047857;
+}
+
+/* Sunset Theme */
+[data-theme="sunset"] {
+  --color-bg: #7c2d12;
+  --color-text: #fff7ed;
+  --color-accent: #f97316;
+  --color-secondary: #9a3412;
+  --color-card: #9a3412;
+  --color-border: #b45309;
+}
+
+/* Lavender Theme */
+[data-theme="lavender"] {
+  --color-bg: #4c1d95;
+  --color-text: #ede9fe;
+  --color-accent: #a78bfa;
+  --color-secondary: #5b21b6;
+  --color-card: #5b21b6;
+  --color-border: #6d28d9;
+}
+
+/* Rose Theme */
+[data-theme="rose"] {
+  --color-bg: #831843;
+  --color-text: #ffe4e6;
+  --color-accent: #ec4899;
+  --color-secondary: #9f1239;
+  --color-card: #9f1239;
+  --color-border: #be185d;
+}
+
+/* Mint Theme */
+[data-theme="mint"] {
+  --color-bg: #064e3b;
+  --color-text: #d9f99d;
+  --color-accent: #84cc16;
+  --color-secondary: #14532d;
+  --color-card: #14532d;
+  --color-border: #15803d;
+}
+
+/* Amber Theme */
+[data-theme="amber"] {
+  --color-bg: #78350f;
+  --color-text: #fffbeb;
+  --color-accent: #facc15;
+  --color-secondary: #92400e;
+  --color-card: #92400e;
+  --color-border: #b45309;
+}
+
+/* Teal Theme */
+[data-theme="teal"] {
+  --color-bg: #134e4a;
+  --color-text: #ccfbf1;
+  --color-accent: #2dd4bf;
+  --color-secondary: #115e59;
+  --color-card: #115e59;
+  --color-border: #0f766e;
+}
+
+/* Coral Theme */
+[data-theme="coral"] {
+  --color-bg: #7f1d1d;
+  --color-text: #fff1f0;
+  --color-accent: #f87171;
+  --color-secondary: #991b1b;
+  --color-card: #991b1b;
+  --color-border: #b91c1c;
+}
+
+/* Indigo Theme */
+[data-theme="indigo"] {
+  --color-bg: #312e81;
+  --color-text: #e0e7ff;
+  --color-accent: #818cf8;
+  --color-secondary: #4338ca;
+  --color-card: #4338ca;
+  --color-border: #4f46e5;
+}
+
+/* Cyan Theme */
+[data-theme="cyan"] {
+  --color-bg: #065f46;
+  --color-text: #cffafe;
+  --color-accent: #06b6d4;
+  --color-secondary: #047857;
+  --color-card: #047857;
+  --color-border: #0d9488;
+}
+
+/* Peach Theme */
+[data-theme="peach"] {
+  --color-bg: #7c2d12;
+  --color-text: #fff7ed;
+  --color-accent: #fcd34d;
+  --color-secondary: #9a3412;
+  --color-card: #9a3412;
+  --color-border: #b45309;
+}
+
+/* Plum Theme */
+[data-theme="plum"] {
+  --color-bg: #5b21b6;
+  --color-text: #ede9fe;
+  --color-accent: #c084fc;
+  --color-secondary: #4c1d95;
+  --color-card: #4c1d95;
+  --color-border: #6d28d9;
+}
+
+/* Forest Theme */
+[data-theme="forest"] {
+  --color-bg: #14532d;
+  --color-text: #dcfce7;
+  --color-accent: #22c55e;
+  --color-secondary: #064e3b;
+  --color-card: #064e3b;
+  --color-border: #065f46;
+}
+
+/* Sand Theme */
+[data-theme="sand"] {
+  --color-bg: #fef3c7;
+  --color-text: #78350f;
+  --color-accent: #fbbf24;
+  --color-secondary: #fde68a;
+  --color-card: #fde68a;
+  --color-border: #fcd34d;
+}
+
+/* Coffee Theme */
+[data-theme="coffee"] {
+  --color-bg: #3f2500;
+  --color-text: #fffaf0;
+  --color-accent: #d97706;
+  --color-secondary: #5c3a00;
+  --color-card: #5c3a00;
+  --color-border: #78350f;
+}
+
+/* Ocean Theme */
+[data-theme="ocean"] {
+  --color-bg: #0f172a;
+  --color-text: #e0f2fe;
+  --color-accent: #0ea5e9;
+  --color-secondary: #1e293b;
+  --color-card: #1e293b;
+  --color-border: #3b82f6;
+}
+
+/* Honey Theme */
+[data-theme="honey"] {
+  --color-bg: #78350f;
+  --color-text: #fffbeb;
+  --color-accent: #f59e0b;
+  --color-secondary: #92400e;
+  --color-card: #92400e;
+  --color-border: #b45309;
+}
+
+/* Rosewood Theme */
+[data-theme="rosewood"] {
+  --color-bg: #581c87;
+  --color-text: #f5f3ff;
+  --color-accent: #c084fc;
+  --color-secondary: #6b21a8;
+  --color-card: #6b21a8;
+  --color-border: #7e22ce;
+}
+
+/* Lime Theme */
+[data-theme="lime"] {
+  --color-bg: #365314;
+  --color-text: #f7fee7;
+  --color-accent: #a3e635;
+  --color-secondary: #4d7c0f;
+  --color-card: #4d7c0f;
+  --color-border: #65a30d;
+}
+
+/* Charcoal Theme */
+[data-theme="charcoal"] {
+  --color-bg: #111827;
+  --color-text: #e5e7eb;
+  --color-accent: #6366f1;
+  --color-secondary: #1f2937;
+  --color-card: #1f2937;
+  --color-border: #374151;
+}
+
+/* Raspberry Theme */
+[data-theme="raspberry"] {
+  --color-bg: #6b021c;
+  --color-text: #ffe4e6;
+  --color-accent: #ec4899;
+  --color-secondary: #7f1d1d;
+  --color-card: #7f1d1d;
+  --color-border: #991b1b;
+}
+
+/* Arctic Theme */
+[data-theme="arctic"] {
+  --color-bg: #f0f9ff;
+  --color-text: #0c4a6e;
+  --color-accent: #38bdf8;
+  --color-secondary: #e0f2fe;
+  --color-card: #e0f2fe;
+  --color-border: #7dd3fc;
+}
